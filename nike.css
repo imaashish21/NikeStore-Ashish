@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 150px;
+  border: 2px solid green;
+}
+#navbar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  background-color: #f5f4f4;
+  text-align: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  /* border: 1px solid blue; */
+}
+#logo1 {
+  height: 25px;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  padding-top: 0px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+  margin: 2px 20px 40px 1px;
+  text-align: center;
+}
+.nav-links ul li {
+  color: #111111;
+  /* display: inline; */
+  margin-right: 20px;
+  padding: 2px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: #111111;
+}
+.nav-links ul li a:hover {
+  text-decoration: underline;
+}
+#navbar2 {
+  display: flex;
+  justify-content: space-between;
+
+  height: 40px;
+  background-color: #fff;
+  margin: 20px;
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.leftNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo2 {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+.logo2 img {
+  height: 40px;
+  width: 100px;
+  /* display: flex;
+  justify-content: right; */
+}
+.nav-links2 {
+  height: 40px;
+  width: 500px;
+}
+.nav-links2 ul {
+  list-style-type: none;
+  margin-left: 240px;
+
+  height: 30px;
+  width: 25px;
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: row; */
+}
+.nav-links2 ul li {
+  color: #111111;
+  display: flex;
+  /* flex-direction: row; */
+  margin-right: 20px;
+  padding: 2px;
+  position: relative;
+}
+.nav-links2 ul li a {
+  color: #111111;
+}
+.nav-links2 ul li a:hover {
+  text-decoration: underline;
+}
+.rightNav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding-left: 40px;
+}
+.search img {
+  width: 20 px;
+  height: 20px;
+  position: relative;
+  /* overflow-clip-margin: content-box; */
+  left: 30px;
+  top: 5px;
+}
+.logo3 {
+  height: 30px;
+  width: 90px;
+  margin: 10px;
+}
+.logo3 img {
+  height: 30px;
+  width: 80px;
+  /* display: flex;
+  justify-content: right; */
+}
+
+.container {
+  border: 1px #fff;
+  margin-top: 20px;
+  height: 223px;
+  background-image: url(./BodyPic1.jpg);
+  background-size: cover;
+  /* background-color: #111111; */
+}
+.container2 {
+  border: 1px #fff;
+  margin-top: 10px;
+  height: 223px;
+  background-image: url(./BodyPic2.jpg);
+  background-size: cover;
+}
+.container3 {
+  border: 1px #fff;
+
+  height: 325px;
+  background-image: url(./Bodypic3.jpg);
+  background-size: cover;
+}
+.container4 {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container4 img {
+  height: 80vh;
+  width: 50%;
+}
+.arrivals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.arrivals h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 48px;
+}
+arrivals.p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.button {
+  margin-top: 2%;
+  padding: 10px 16px;
+  border-radius: 50px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hoodieImage img {
+  height: 70vh;
+  width: 100%;
+}
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.footerText {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footerText2 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 80px;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footerContainer1 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+.footerContainer1 ul {
+  list-style-type: none;
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.footerContainer1 ul li {
+  margin: 16px 0px;
+}
+.footerContainer1 ul li a {
+  color: #737272;
+}
+.footerContainer1 ul li a:hover {
+  color: #000;
+}
+.bottomLine {
+  margin: 40px 50px;
+}
